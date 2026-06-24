@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ReBite</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<nav>
+    <h2>ReBite</h2>
+    <div>
+        <a href="#donate">Donate</a>
+        <a href="#impact">Impact</a>
+        <a href="#ngo">NGO</a>
+    </div>
+</nav>
+<body>
+<header>
+    <h1>ReBite</h1>
+    <p>Give Every Meal a Second Chance.</p>
+</header>
+
+<section class="hero">
+    <h2>Reduce Food Waste. Feed Communities.</h2>
+    <p>
+        ReBite connects restaurants, volunteers, and NGOs
+        to rescue surplus food and deliver it where it is needed.
+    </p>
+
+    <button>Get Started</button>
+</section>
+
+<section class="cards">
+<section class="donation-form" id="donate">
+
+    <h2>Post Food Donation</h2>
+
+    <input type="text" id="restaurant" placeholder="Restaurant Name">
+
+    <input type="text" id="food" placeholder="Food Item">
+
+    <input type="number" id="quantity" placeholder="Quantity">
+
+    <input type="text" id="location" placeholder="Pickup Location">
+
+    <button onclick="postDonation()">
+        Post Donation
+    </button>
+
+</section>
+
+<h2>Available Donations</h2>
+
+<div id="donationList"></div>
+
+<section id="ngo">
+    <h2>NGO Dashboard</h2>
+    <div id="ngoDashboard">
+    </div>
+</section>
+
+    <div class="card">
+        <h3>🍴 Restaurant</h3>
+        <p>Post surplus food available for donation.</p>
+    </div>
+
+    <div class="card">
+        <h3>🚴 Volunteer</h3>
+        <p>Help collect and deliver meals.</p>
+    </div>
+
+    <div class="card">
+        <h3>🏠 NGO</h3>
+        <p>Receive food donations for communities.</p>
+    </div>
+    
+    <div class="stat">
+    <h3 id="ngosHelped">0</h3>
+    <p>NGOs Helped</p>
+    </div>
+    
+</section>
+
+<section class="impact" id="impact">
+    <h2>Impact Dashboard</h2>
+
+    <div class="stats">
+        <div class="stat">
+            <h3 id="mealsSaved">0</h3>
+            <p>Meals Saved</p>
+        </div>
+
+        <div class="stat">
+            <h3>85</h3>
+            <p>Restaurants</p>
+        </div>
+
+        <div class="stat">
+            <h3>250</h3>
+            <p>Volunteers</p>
+        </div>
+
+        <div class="stat">
+        <h3 id="activeDeliveries">0</h3>
+        <p>Active Deliveries</p>
+        </div>
+</section>
+<script src="script.js"></script>
+</body>
+</html>

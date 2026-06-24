@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f5fff8;
+    color: #1d1d1d;
+    text-align: center;
+}
+
+header {
+    background: #1f8f4d;
+    color: white;
+    padding: 30px;
+}
+
+.hero {
+    padding: 50px 20px;
+}
+
+.hero h2 {
+    font-size: 36px;
+}
+
+button {
+    background: #1f8f4d;
+    color: white;
+    border: none;
+    padding: 14px 28px;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin: 40px auto;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: white;
+    padding: 30px;
+    width: 260px;
+    border-radius: 18px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+.impact {
+    padding: 40px 20px;
+}
+
+.stats {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.stat {
+    background: white;
+    padding: 25px;
+    width: 180px;
+    border-radius: 18px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+.donation-form {
+    margin: 50px auto;
+}
+
+input {
+    display: block;
+    margin: 10px auto;
+    padding: 12px;
+    width: 300px;
+}
+
+#donationList {
+    margin: 30px;
+}
+
+.donation-card {
+    background: white;
+    margin: 15px auto;
+    padding: 20px;
+    width: 350px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+.status {
+    font-weight: bold;
+}
